@@ -1,48 +1,21 @@
-# Practica Processing
-
 ## Spark Streaming Kafka
 
+Crear una structura kafka Streaming usando la estructura de código PRODUCTOR y código CONSUMIDOR
+
+#### [Enlace práctica](documentacion/SparkStreamingKafka.md)
 
 
-### Creación del PRODUCTOR utilizando el método kafka-console-producer.sh
+## Parte de investigación
 
+### Instalación de Zeppelin y configuración
 
+Pasos más relevantes para la instalación de Zeppelin, y la forma de 
+configurar SPARK para que podamos trabajar en el note de Zeppelin
 
-1.- Creamos el topic con zookeeper
-```
-root@debian:/home/kafka/kafka_2.11-2.4.0# bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic topicjson
-Created topic topicjson.
-```
-2.- Copiamos en bin el archivo .json
-```
-root@debian:/home/keepcoding/IdeaProjects/TestScalaNuevo# cp personal.json /home/kafka/kafka_2.11-2.4.0/bin
-```
-3.- Añadimos el archivo personal.json al topic topicjson
-```
-root@debian:/home/kafka/kafka_2.11-2.4.0# cat bin/personal.json| bin/kafka-console-producer.sh --broker-list localhost:9092 --topic topicjson
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>root@debian:/home/kafka/kafka_2.11-2.4.0# 
-```
+#### [Enlace documentació](documentacion/Instalacion_Zeppelin.odt)
 
-### Creación del CONSUMER utilizando el método kafka-console-consumer.sh
+ ### Ejercicio 
 
-```
-root@debian:/home/kafka/kafka_2.11-2.4.0# bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic topicjson --from-beginning
-```
+Trabajar con el csv "amigos.csv" y calcular el número de registros que tiene
 
-### Lectura del topic por consola
-
-![Producer-consumer-console.jpg](imagenes/Producer-consumer-console.jpg)
-
-
-### Creación del CONSUMER con Scala
-
-1.- Filtrar del fichero JSON ""gender != 'Male' AND last_name != 'Bea'""
-
-![resultado-filtrado](imagenes/resultado_jsonKafkaFiltrado.scala.jpg)
-
-2.- Archivo scr del consumidor
-
-[código consumer.scr](jsonKafkaFiltrado.scala)
-
-
-
+#### [Enlace ejercicio](documentacion/Ejercicio_Zeppelin.md)
