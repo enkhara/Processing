@@ -29,12 +29,18 @@ root@debian:/home/kafka/kafka_2.11-2.4.0# cat bin/personal.json| bin/kafka-conso
 root@debian:/home/kafka/kafka_2.11-2.4.0# bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic topicjson --from-beginning
 ```
 
-#### Lectura del topic por consola
+### Lectura del topic por consola
 
-(poner captura de pantalla)
+[Producer-consumer-console.jpg](Producer-consumer-console.jpg)
+
 
 ### Creación del CONSUMER con Scala
 
 1.- Filtrar del fichero JSON ""gender != 'Male' AND last_name != 'Bea'""
 
-añadir foto de ejecución
+[resultado-filtrado](resultado_jsonKafkaFiltrado.scala.jpg)
+
+[código consumer.scr](jsonKafkaFiltrado.scala)
+
+
+
