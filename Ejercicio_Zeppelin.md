@@ -24,4 +24,5 @@
 ```
 ### 2.- Resultado de la ejecución del código
 
-![pantallazo del resultado](ejecucion.png)
+![pantallazo del resultado](imagenes/ejecucion.png)
+
