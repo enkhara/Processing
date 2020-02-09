@@ -6,11 +6,11 @@
 
 ### Creación del PRODUCTOR utilizando el método kafka-console-producer.sh
 
-root@debian:/home/kafka/kafka_2.11-2.4.0# 
+
 
 1.- Creamos el topic con zookeeper
 ```
-bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic topicjson
+root@debian:/home/kafka/kafka_2.11-2.4.0# bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic topicjson
 Created topic topicjson.
 ```
 2.- Copiamos en bin el archivo .json
@@ -35,6 +35,6 @@ root@debian:/home/kafka/kafka_2.11-2.4.0# bin/kafka-console-consumer.sh --bootst
 
 ### Creación del CONSUMER con Scala
 
-1.- Contar el número de palabras que tenemos en el fichero
+1.- Filtrar del fichero JSON ""gender != 'Male' AND last_name != 'Bea'""
 
-2.- Filtrar del fichero JSON "Nombre" y "e-mail"
+añadir foto de ejecución
