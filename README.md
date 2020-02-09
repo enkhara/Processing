@@ -12,7 +12,7 @@ Crear una structura kafka Streaming usando la estructura de código PRODUCTOR y 
 Pasos más relevantes para la instalación de Zeppelin, y la forma de 
 configurar SPARK para que podamos trabajar en el note de Zeppelin
 
-#### [Enlace documentació](documentacion/Instalacion_Zeppelin.odt)
+#### [Enlace documentació](documentacion/Instalacion_Zeppelin.md)
 
  ### Ejercicio 
 
