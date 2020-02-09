@@ -38,7 +38,7 @@ root@debian:/home/kafka/kafka_2.11-2.4.0# bin/kafka-console-consumer.sh --bootst
 
 1.- Filtrar del fichero JSON ""gender != 'Male' AND last_name != 'Bea'""
 
-[resultado-filtrado](resultado_jsonKafkaFiltrado.scala.jpg)
+![resultado-filtrado](resultado_jsonKafkaFiltrado.scala.jpg)
 
 [código consumer.scr](jsonKafkaFiltrado.scala)
 
