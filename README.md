@@ -40,7 +40,7 @@ root@debian:/home/kafka/kafka_2.11-2.4.0# bin/kafka-console-consumer.sh --bootst
 
 ![resultado-filtrado](resultado_jsonKafkaFiltrado.scala.jpg)
 
-[código consumer.scr](jsonKafkaFiltrado.scala)
+![código consumer.scr](jsonKafkaFiltrado.scala)
 
 
 
