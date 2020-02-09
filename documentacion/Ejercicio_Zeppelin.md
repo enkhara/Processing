@@ -26,5 +26,6 @@
 
 ![pantallazo del resultado](imagenes/ejecucion.png)
 
-### [3.- Archivo .json del código descargado desde Zeppelin](AmigosCSV.json)
+### 3.- Archivo .json del código descargado desde Zeppelin
+[.json](https://github.com/enkhara/Processing/blob/master/documentacion/AmigosCSV%20.json)
 
