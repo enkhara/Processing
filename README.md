@@ -31,7 +31,7 @@ root@debian:/home/kafka/kafka_2.11-2.4.0# bin/kafka-console-consumer.sh --bootst
 
 ### Lectura del topic por consola
 
-![Producer-consumer-console.jpg](https://github.com/enkhara/Processing/blob/master/Producer-consumer-console.jpg)
+![Producer-consumer-console.jpg](Producer-consumer-console.jpg)
 
 
 ### Creación del CONSUMER con Scala
